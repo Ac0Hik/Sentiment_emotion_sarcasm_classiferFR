@@ -31,11 +31,10 @@ def classify_emotions_csv(upload_file):
 def page_heading():
     st.title("Emotion Analysis Page")
 
-
     # Descriptive paragraph
     st.write(
         "This page allows you to analyze emotions in text in the French language . "
-        "The model used classifies text into six emotion categories: anger, joy, optimism, sadness, fear, and surprise."
+        "The model used classifies text into six emotion categories: anger, joy, disguts, sadness, fear, and surprise."
     )
     # Option to classify raw text
     st.subheader("Classify Raw Text")
